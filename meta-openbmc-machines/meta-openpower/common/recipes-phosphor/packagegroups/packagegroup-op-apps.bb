@@ -31,6 +31,7 @@ RDEPENDS_${PN}-chassis = " \
         obmc-op-control-power \
         obmc-pcie-detect \
         obmc-host-failure-reboots \
+        seeprom-tool \
         "
 #Pull in obmc-fsi on all P9 OpenPOWER systems
 RDEPENDS_${PN}-chassis += "${@mf_enabled(d, 'op-fsi', 'op-fsi')}"

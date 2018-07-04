@@ -1,0 +1,5 @@
+HOMEPAGE = "https://github.ibm.com/eajames/sbe-seeprom-tool"
+LICENSE = "Apache-2.0"
+LIC_FILES_CHKSUM = "file://LICENSE;md5=39d9df46ef77c8fdb80ccdeb89949633"
+SRC_URI += "git://git@github.ibm.com/shakeebbk/sbe-seeprom-tool.git;protocol=ssh"
+SRCREV = "666c162e6eb8050ed6dfbe0162550622a309d968"
